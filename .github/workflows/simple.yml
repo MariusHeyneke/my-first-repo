@@ -1,4 +1,4 @@
-name: Shell Commands
+name: Github Action Custom Shell Commands
 
 on: [push]
 
@@ -14,3 +14,9 @@ jobs:
           node -v
           echo NPM version:
           npm -v
+      - name: Python Command
+        run: |
+          import platform
+          print(platform.processor())
+          echo "Done"
+        shell: python
