@@ -1,0 +1,17 @@
+name: Marius
+age: 36
+address: "10 michelle ave"
+active: true
+key: 
+    key: 123
+    key2: 33
+objectsArray:
+    - key: val
+      key2: val2
+    - key: val
+      key2: val2
+longtext: >
+    asdksakldjksajkljdklsajd 
+    kjsakl 
+    jdklsaj 
+    dklas
