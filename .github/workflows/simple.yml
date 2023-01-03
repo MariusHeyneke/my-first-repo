@@ -18,5 +18,5 @@ jobs:
         run: |
           import platform
           print(platform.processor())
-          echo "Done"
+          print("Done")
         shell: python
